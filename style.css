@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title h1 {
+    text-align: center;
+}
+
+.input-container {
+    text-align: center;
+}
+
+#forecast {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+#forecast div {
+    width: 400px;
+    height: 300px;
+    background: linear-gradient(#12d0f1, blue);
+    color: white;
+    text-align: center;
+    margin: 10px;
+    border-radius: 20px;
+    font-size: 30px;
+
+}
